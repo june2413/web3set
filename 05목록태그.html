@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8">
+        <title> 목록태그 </title>
+    </head>
+    <body>
+        <h2>음식</h2>
+        <ol>
+            <li>라면</li>
+            <li>소고기</li>
+            <li>탕수육</li>
+            <li>치킨</li>
+            <li>민트초코</li>
+        </ol>
+
+        <ol>
+            <li>분식</li>
+                <ol>
+                    <li>라면</li>
+                        <ol>
+                        <!-- ul태그와는 달리목록을 중첩시키면 기호가 자동으로 안바뀜 -->
+                            <li>떡라면</li>
+                            <li>매운라면</li>
+                            <li>치즈라면</li>
+                        </ol>
+                </ol>
+        </ol>
+        <hr>
+        <h2> 정의목록 </h2>
+        <dl>
+            <dt>WWW</dt>
+            <dd>WWW는 world wide web의 약자로 ...</dd>
+
+            <dt>HTML</dt>
+            <dd>HTML는 hypertext markup language의 약자로 ...</dd>
+
+            <dt>CSS</dt>
+            <dd>CSS는 cascade style sheet의 약자로 ...</dd>
+        </dl>
+    </body>
+</html>
+<!--
+목록 다루기
+리스트 : 여러요소들을 일렬로 나열한 목록이나 명단을 의미
+HTML에서는 ul,ol,dl 이라는 태그로 표현가능
+또한, 웹페이지 내 메뉴를 정의할때나 상품목록을 나타낼때에도 사용함
+
+정의목록
+용어와 그 용어의 뜻을 나열할때 사용함
+정의목록은 dl태그로, 용어는 dt태그로, 용어뜻은 dd 태그를 사용함
+-->
