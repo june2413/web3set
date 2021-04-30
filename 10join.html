@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8">
+        <title> 회원가입 </title>
+    </head>
+    <body>
+        <h1>회원가입 정보입력</h1>
+        <p><span style="color: red">*</span>
+            표시항목은 필수 입력항목입니다.</p>
+        <table>
+            <tr>
+                <td>아이디 : </td>
+                <td><input type="text" name="uid"></td>
+            </tr>
+            <tr>
+                <td>암 호 : </td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>암호확인 : </td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>이름 : </td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>대화명 : </td>
+                <td><input type="text" name="nname"></td>
+            </tr>
+            <tr>
+                <td>주민등록번호 : </td>
+                <td><input type="text" name="numname" size="5">
+                    - <input type="text" name="numname" size="5"> </td>
+            </tr>
+            <tr>
+                <td>생년월일 : </td>
+                <td><input type="text" name="birth" size="3">
+                    년 <input type="text" name="birth" size="3">
+                    월 <input type="text" name="birth" size="3">
+                    일
+                </td>
+            </tr>
+            <tr>
+                <td>성별 : </td>
+                <td><input type="radio" name="gender" value="m"> 남
+                    <input type="radio" name="gender" value="f"> 여
+                </td>
+            </tr>
+            <tr>
+                <td>E - mail : </td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>메일수신 : </td>
+                <td><input type="radio" name="smail" value="y"> 수신동의
+                    <input type="radio" name="smail" value="n"> 수신거부
+                </td>
+            </tr>
+            <tr>
+                <td>우편번호 : </td>
+                <td><input type="text" name="post" size="3">
+                    -<input type="text" name="post" size="3">
+                </td>
+            </tr>
+            <tr>
+                <td>주소 : </td>
+                <td><input type="text" name="adress" >
+                    <br><input type="text" name="adress" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td>전화번호 : </td>
+                <td> <select name="hp1"><option>-국번-</option>
+                    <option selected>02</option>
+                    <option>051</option>
+                    <option>053</option>
+                </select> -
+                <input type="text" name="hp2" size="5"> -
+                <input type="text" name="hp3" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td>핸드폰 : </td>
+                <td> <select name="hp1"><option>-국번-</option>
+                    <option selected>010</option>
+                    <option>011</option>
+                    <option>016</option>
+                </select> -
+                <input type="text" name="hp2" size="5"> -
+                <input type="text" name="hp3" size="5">
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>

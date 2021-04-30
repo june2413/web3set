@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8">
+        <title> html5폼태그 </title>
+    </head>
+    <body>
+        <h1>html5폼태그</h1>
+        <h2>간단한 폼 작성하기 - 로그인</h2>
+        <form method="post" name="loginfrm">
+            <div>아이디 : <input type="text" name="uid" required></div>
+            <div>비밀번호 : <input type="password" name="pwd" required></div>
+            <div><button type="submit">로그인하기</button></div>
+        </form>
+
+         <form method="post" name="loginfrm2">
+            <div> <input type="text" name="uid" placeholder="아이디" required></div>
+            <div> <input type="password" name="pwd" placehoder="비밀번호" required></div>
+            <div><button type="submit">로그인하기</button></div>
+        </form>
+
+    </body>
+</html>
+<!--
+    html5폼요소 추가사항
+    type : number, range, color, date, time,
+          email, url, tel, search
+
+    required : 반드시 입력해야 하는 항목 명시
+    placeholder : 폼에 입력해야 할 사항에 대한 설명 명시
+    pattern
+    min
+    max
+
+
+
+-->
